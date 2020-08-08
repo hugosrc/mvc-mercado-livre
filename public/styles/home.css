@@ -2,3 +2,43 @@
   height: 100vh;
 }
 
+#page-home .content #items-wrapper {
+  width: 100vw;
+}
+
+#page-home .content #items-wrapper #items {
+  display: flex;
+ 
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+
+  scroll-behavior: smooth;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#page-home .content #items-wrapper #items::-webkit-scrollbar {
+  display: none;
+}
+
+#page-home .content #buttons #right-btn {
+  right: 0;
+}
+
+#page-home .content #items-wrapper #items .item {
+  flex: none;
+
+  width: 100%;
+
+  scroll-snap-align: start;
+  pointer-events: none;
+}
+
+#page-home .content #items-wrapper #items .item img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
