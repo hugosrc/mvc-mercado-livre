@@ -1,0 +1,124 @@
+#page-home {
+  height: 100vh;
+}
+
+#page-home .content header {
+  height: 100px;
+  background-color: #fff159;
+  padding: 0 85px;
+}
+
+#page-home .content #small {
+  display: none;
+  margin-right: 8px;
+}
+
+#page-home .content header main {
+  height: 50%;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page-home .content header main img {
+  height: 34px;
+}
+
+#page-home .content header main form {
+  height: 80%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #fff;
+
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+#page-home .content header main form input {
+  height: 100%;
+  width: 550px;
+  padding: 0 16px;
+  margin: 0 8px;
+  font-size: 14px;
+}
+
+#page-home .content header main form button {
+  position: absolute;
+  right: 0;
+  height: 40px;
+  width: 40px;
+}
+
+#page-home .content header main form button {
+  position: absolute;
+  right: 0;
+  height: 40px;
+  width: 40px;
+}
+
+#page-home .content header main div {
+  display: none;
+
+  flex-wrap: nowrap;
+}
+
+#page-home .content header main div a {
+  font-size: 24px;
+  color: #444;
+  margin-left: 12px;
+}
+
+#page-home .content header section {
+  height: 50%;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page-home .content header section a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #33333399;
+  margin-left: 12px;
+}
+
+#page-home .content header section i {
+  font-size: 22px;
+}
+
+@media(max-width: 1178px) {
+  #page-home .content header {
+    padding: 0 16px;
+  }
+}
+
+@media(max-width: 1052px) {
+  #page-home .content header img:last-child {
+    display: none;
+  }
+
+  #page-home .content header main div {
+    display: flex;
+  }
+
+  #page-home .content header main {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+  }
+
+  #page-home .content header section {
+    display: none;
+  }
+}
+
+@media(max-width: 562px) {
+  #page-home .content #small {
+    display: inline;
+  }
+
+  #page-home .content header main img {
+    display: none;
+  }
+}
