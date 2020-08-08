@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% set pageId = "page-notfound" %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/notfound.css">
+{% endblock styles %}
+
+{% block content %}
+  <div class="content">
+    <header>
+      <img src="/assets/logo.png" alt="Mercado livre">
+    </header>
+
+    <main>
+      <img src="/assets/not-found.svg" alt="Not found">
+      <strong>Parece que esta página não existe</strong>
+      <a href="/">Ir para página principal</a>
+    </main>
+  </div>
+{% endblock content %}
